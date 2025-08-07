@@ -423,6 +423,11 @@ button {
     display: none !important;
   }
 }
+@media (max-height: 499px) {
+  .mainCode .SplitPane.vertical {
+    align-items: start;
+  }
+}
 .mainCode .Pane.vertical {
   display: flex;
   justify-content: center;
@@ -469,10 +474,10 @@ button {
 @media (min-width: 800px) {
   .mainCode__input {
     flex: 1;
-    min-height: min(1080px, 75vh);
-    min-height: min(1080px, 75dvh);
-    height: clamp(min(1080px, 75vh), 75vh, 1080px);
-    height: clamp(min(1080px, 75dvh), 75dvh, 1080px);
+    /* min-height: min(1080px, 70vh);
+    min-height: min(1080px, 70dvh); */
+    height: clamp(min(1080px, 70vh), 70vh, 1080px);
+    height: clamp(min(1080px, 70dvh), 70dvh, 1080px);
   }
 }
 .mainCode__input__type {
@@ -623,10 +628,10 @@ button {
   .mainCode__output {
     flex: 1;
     min-width: 150px;
-    min-height: min(1080px, 75vh);
-    min-height: min(1080px, 75dvh);
-    height: clamp(min(1080px, 75vh), 75vh, 1080px);
-    height: clamp(min(1080px, 75dvh), 75dvh, 1080px);
+    /* min-height: min(1080px, 70vh);
+    min-height: min(1080px, 70dvh); */
+    height: clamp(min(1080px, 70vh), 70vh, 1080px);
+    height: clamp(min(1080px, 70dvh), 70dvh, 1080px);
   }
 }
 .mainCode__output__type {

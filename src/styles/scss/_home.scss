@@ -148,6 +148,10 @@
     @media (max-width: 799px) {
       display: none !important;
     }
+
+    @media (max-height: 499px) {
+      align-items: start;
+    }
   }
 
   .Pane.vertical {
@@ -201,10 +205,10 @@
 
     @media (min-width: $panel-breakpoint) {
       flex: 1;
-      min-height: min(1080px, 75vh);
-      min-height: min(1080px, 75dvh);
-      height: clamp(min(1080px, 75vh), 75vh, 1080px);
-      height: clamp(min(1080px, 75dvh), 75dvh, 1080px);
+      /* min-height: min(1080px, 70vh);
+      min-height: min(1080px, 70dvh); */
+      height: clamp(min(1080px, 70vh), 70vh, 1080px);
+      height: clamp(min(1080px, 70dvh), 70dvh, 1080px);
     }
 
     &__type {
@@ -377,10 +381,10 @@
     @media (min-width: $panel-breakpoint) {
       flex: 1;
       min-width: 150px;
-      min-height: min(1080px, 75vh);
-      min-height: min(1080px, 75dvh);
-      height: clamp(min(1080px, 75vh), 75vh, 1080px);
-      height: clamp(min(1080px, 75dvh), 75dvh, 1080px);
+      /* min-height: min(1080px, 70vh);
+      min-height: min(1080px, 70dvh); */
+      height: clamp(min(1080px, 70vh), 70vh, 1080px);
+      height: clamp(min(1080px, 70dvh), 70dvh, 1080px);
     }
 
     &__type {
