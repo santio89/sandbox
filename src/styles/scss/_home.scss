@@ -124,6 +124,7 @@
   position: relative;
   gap: 2rem;
   padding: 1rem;
+  min-height: min(1080px, 70dvh);
 
   @media (min-width: $panel-breakpoint) {
     flex-direction: row;
@@ -147,10 +148,6 @@
 
     @media (max-width: 799px) {
       display: none !important;
-    }
-
-    @media (max-height: 499px) {
-      align-items: start;
     }
   }
 

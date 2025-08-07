@@ -397,6 +397,7 @@ button {
   position: relative;
   gap: 2rem;
   padding: 1rem;
+  min-height: min(1080px, 70dvh);
 }
 @media (min-width: 800px) {
   .mainCode {
@@ -421,11 +422,6 @@ button {
 @media (max-width: 799px) {
   .mainCode .SplitPane.vertical {
     display: none !important;
-  }
-}
-@media (max-height: 499px) {
-  .mainCode .SplitPane.vertical {
-    align-items: start;
   }
 }
 .mainCode .Pane.vertical {
